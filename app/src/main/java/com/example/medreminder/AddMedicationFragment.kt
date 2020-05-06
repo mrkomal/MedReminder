@@ -10,6 +10,7 @@ import kotlinx.android.synthetic.*
 
 class AddMedicationFragment : Fragment() {
 
+    public var ID = 1
     lateinit var message : TextView
 
     override fun onCreateView(
@@ -18,7 +19,7 @@ class AddMedicationFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_add_medication, container, false)
-        message = view.findViewById(R.id.add_new_medication_button)
+//        message = view.findViewById(R.id.add_new_medication_button) -> BUG
         return view
     }
 
