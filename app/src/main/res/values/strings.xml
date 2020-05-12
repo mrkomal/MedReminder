@@ -4,4 +4,7 @@
     <string name="show_medications_button">My medications</string>
     <string name="show_kit_button">My kit</string>
     <string name="show_more_button">More</string>
+    <string name="insert_medicine_s_name">Insert medicine\'s name:</string>
+    <string name="name_of_medicine">Name of medicine</string>
+    <string name="confirm">Confirm</string>
 </resources>
