@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity(), SelectFragment{
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //wlasne
         init()
         createNotificationChannel()
         preference = this.getSharedPreferences("Medication list", 0)
