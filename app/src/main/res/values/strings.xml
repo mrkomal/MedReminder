@@ -7,4 +7,15 @@
     <string name="insert_medicine_s_name">Insert medicine\'s name:</string>
     <string name="name_of_medicine">Name of medicine</string>
     <string name="confirm">Confirm</string>
+    <string name="choose_time_at_which_you_want_to_take_your_medicine">Choose time at which you want to take your medicine:</string>
+    <string name="choose_type_of_medicine">Choose type of medicine:</string>
+    <string name="pills">Pills</string>
+    <string name="syrup">Syrup</string>
+    <string name="injection">Injection</string>
+    <string name="other">Other</string>
+    <string name="title_app_description">About application...</string>
+    <string name="app_description">The aim of the application is to remind user about taking a dose of medicine by simple notification. Time of the reminder is chosen freely and notification appears everyday at the same time. Except from that, MedReminder also stores current medications and medicines that are used in them.</string>
+    <string name="instruction_title">How to use MedReminder?</string>
+    <string name="instruction">Click \"Add new medication\" button to start new medication. Insert the name of medicine and select its type. Choose hour at which you want the notification with reminder and confirm your choice. Click \"my medications\" and \"my kit\" to view list of current medications or currently used medicines. As medication is finished, delete it from the list.</string>
+    <string name="delete">delete</string>
 </resources>

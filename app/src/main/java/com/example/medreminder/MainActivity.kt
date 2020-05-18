@@ -7,6 +7,7 @@ import android.content.SharedPreferences
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Toast
 import androidx.core.app.NotificationCompat
 import androidx.fragment.app.Fragment
@@ -22,7 +23,6 @@ class MainActivity : AppCompatActivity(), SelectFragment{
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //wlasne
         init()
         createNotificationChannel()
         preference = this.getSharedPreferences("Medication list", 0)
@@ -82,7 +82,6 @@ class MainActivity : AppCompatActivity(), SelectFragment{
             notificationManager.createNotificationChannel(channel)
         }
     }
-
 
 }
 

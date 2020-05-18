@@ -6,7 +6,7 @@
     android:orientation="horizontal">
 
     <TextView
-        android:id="@+id/item_number"
+        android:id="@+id/medicine_number"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginEnd="16dp"
@@ -14,7 +14,7 @@
         android:textColor="#000000"/>
 
     <TextView
-        android:id="@+id/medication_name"
+        android:id="@+id/type_of_medicine"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:textSize="20sp"
